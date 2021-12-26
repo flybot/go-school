@@ -1,0 +1,1 @@
+web: bin/flybot-go-test

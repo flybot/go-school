@@ -1,0 +1,12 @@
+{
+    "name": "Start on Heroku: Go",
+    "description": "Go Test App",
+    "keywords": [
+      "flybot-go-test",
+      "go",
+      "test",
+      "example"
+    ],
+    "website": "http://github.com/flybot/go-school",
+    "repository": "http://github.com/flybot/go-school"
+  }
