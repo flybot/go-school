@@ -5,6 +5,7 @@ import (
 	"html/template"
 	"log"
 	"net/http"
+	"os"
 	"regexp"
 	"time"
 )
@@ -88,7 +89,8 @@ func home(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	port := os.Getenv("PORT")
 	http.HandleFunc("/", logging(home))
 	fmt.Println("Server is listening...")
-	http.ListenAndServe(".0:8181", nil)
+	http.ListenAndServe(":"+port, nil)
 }

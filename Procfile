@@ -1,1 +1,1 @@
-web: bin/flybot-go-test
+web: bin/go-school
